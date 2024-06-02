@@ -30,7 +30,7 @@ export default function NavBar(){
     
     const [nav , setNav] = useState();
     return(
-        <div className="bg-black h-20 w-full px-4 text-white flex justify-between items-center">
+        <div className="bg-black h-20 w-full px-4 text-white flex justify-between items-center fixed">
             <div className="m-1">
             <h1 className="text-5xl font-signature ml-2 font-bold ">Raj</h1>
 
