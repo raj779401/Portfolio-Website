@@ -14,7 +14,7 @@ export default function SocialIcon(){
                 Linkedin  <FaLinkedin size={25}/>
                </>
            ),
-           href : 'https:linkedin.com',
+           href : 'https://www.linkedin.com/in/raj-singh-ab3272228/',
            style : 'rounded-tr-md' 
         },
         {
@@ -24,7 +24,7 @@ export default function SocialIcon(){
                  Github <FaGithub size={25}/>
                 </>
             ),
-            href : 'https:github.com',
+            href : 'https://github.com/raj779401',
          },
          {
             id :'3',

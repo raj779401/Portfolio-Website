@@ -1,7 +1,7 @@
 export default function About(){
     return(
-        <div className="flex flex-col items-center justify-start min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
-            <div className="flex flex-col items-center justify-start p-5 md:p-10 w-full md:w-3/4 max-w-screen-lg">
+        <div name="about" className="w-full h-screen p-5 bg-gradient-to-b from-gray-900 to-black text-white">
+            <div className="flex flex-col  max-w-screen-lg justify-center p-4 mx-auto h-full">
                 <h1 className="text-3xl md:text-5xl font-bold pb-4 md:pb-8 underline self-start">About Me</h1>
                 <p className="text-base md:text-lg mt-4 md:mt-8 leading-relaxed md:leading-normal tracking-wide">
                     Certainly! Here's a paragraph describing me as a full stack developer:
