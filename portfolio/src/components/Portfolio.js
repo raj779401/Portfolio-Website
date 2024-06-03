@@ -25,7 +25,7 @@ export default function Portfolio() {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
                     {projectLinks.map(({ id, src }) => (
                         <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                            <img className="rounded-md duration-200 hover:scale-105" src={src} />
+                            <img className="rounded-md duration-200 hover:scale-105" src={src} alt={src}/>
                             <div className="flex justify-between items-center px-3">
                                 <button className="py-3 duration-200 hover:scale-105">Demo</button>
                                 <button className="py-3 duration-200 hover:scale-105">Code</button>
